@@ -3,11 +3,11 @@ public class Rectangle {
   public int width;
 
   public Rectangle(int length, int width) {
-    this. length = length;
-    this. width = width;
+    this.length = length;
+    this.width = width;
   }
 
-  public in getArea() {
+  public int getArea() {
     return length * width;
   }
 
